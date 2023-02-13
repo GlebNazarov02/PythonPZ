@@ -1,6 +1,7 @@
-def step(a,b):
+def step(a, b):
     if b == 0:
         return 1
-    return step(a,b-1) * a
+    return step(a, b-1) * a
 
-print(step(int(input()),int(input())))
+
+print(step(int(input()), int(input())))
